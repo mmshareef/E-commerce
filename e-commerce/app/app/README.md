@@ -69,6 +69,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 | Feature | Assigned to | Deadline | Completed On |
 |---------|-------------|----------|--------------|
-|front end total|shiva shankar reddy|25th aug  | 25th aug|
-|         |             |          |              |
-|         |             |          |              |
+|Components|shiva shankar reddy|25th aug  | 25th aug|
+|   Data      |  Tahaseef           |    25th aug      | 25th aug             |
+|     database    |   Sharief          |   25th aug       |      25th aug        |
