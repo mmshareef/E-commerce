@@ -1,0 +1,133 @@
+body {
+  background-color: rgb(209, 204, 204);
+}
+.header {
+  background-color:rgb(7, 0, 14);
+  display: flex;
+  align-items: center;
+  flex:1;
+}
+.headerlogo{
+  width:100px;
+  object-fit: contain;
+  margin-left:20px;
+  margin-right:20px;
+  margin-top:18px;
+}
+.headersearch {
+  display: flex;
+  flex: 1;  
+}
+.headersearchInput{
+  height:12px;
+  padding:10px;
+  border: none;
+  width:100%;
+}
+
+.headericon {
+  background-color: #cd9042;
+  padding:5px;
+  height:22px !important;
+  
+}
+.headernav {
+  display: flex;
+  justify-content: space-evenly;
+}
+.headerlink {
+  color: white;
+  text-decoration: none;
+}
+.headeroption {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.lineone {
+  font-size:10px;
+}
+.linetwo{
+  font-size:13px;
+  font-weight:800;
+}
+.headerbasket {
+  display:flex;
+  align-items:center;
+}
+
+.homeimage{
+  width: 100%;
+  mask-image: Linear-gradient(to bottom,rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  max-width: 1500px;
+  margin-right:auto;
+  margin-left:auto;
+  height: 400px;
+  z-index: -1;
+  margin-bottom:-150px;
+}
+.headerbasket {
+  display:flex;
+  align-items: center;
+}
+.basketlineone {
+  margin-left: 10px;
+  margin-right: 10px;;
+}
+.top {
+  height: 230px;
+  width: auto;  
+  margin:10px;
+}
+.info {
+  margin-left: 20px;
+  font-weight: bold;
+}
+.container {
+  padding: 10px;
+  width: 270px;
+  height:350px;
+}
+.user {
+  margin-left: 500px;
+  margin-top: 100px;
+}
+button {
+  background-color: rgb(230, 208, 18);
+  color: black;
+}
+.register {
+  margin-top:-10px
+}
+.categorybox{
+  margin:10px;
+  box-sizing:border-box;
+  background-color:rgba(255, 255, 255, 0.966);
+}
+.categorybox:hover{
+  border:1px solid rgb(184, 184, 184);
+  margin:10px;
+  box-sizing:border-box;
+}
+.list{
+  display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.productbox{
+  height:500px;
+  margin:10px;
+  background-color:rgba(255, 255, 255, 0.966);
+}
+.register{
+  margin-left:500px;
+  box-sizing:border-box;
+}
+input{
+  border: 1px solid;
+  width:250px;
+  height:30px;
+}
+
