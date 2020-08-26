@@ -8,7 +8,7 @@ const Header =(props)=> {
     const {username} = props;
     return (
         <nav className= " header">
-        {/*amazon logo*/}
+        {/*Home*/}
         <Link to="/">
         <img className= "headerlogo" src = "http://pngimg.com/uploads/amazon/amazon_PNG11.png"/>
         </Link>
@@ -42,15 +42,6 @@ const Header =(props)=> {
         <span className="linetwo">Products</span>
         </div>
         </Link>
-
-        {/*Home*/}
-        <Link to="/" className="headerlink">
-        <div className = "headeroption">
-        <span className="lineone">Your</span>
-        <span className="linetwo">Home</span>
-        </div>
-        </Link>
-        
 
         {/*Basket*/}
         <Link to="/cart" className="headerlink">
